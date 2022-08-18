@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HTML, CSS, JS\\GeekBrains\\C# lessons\\Homeworks\\Homework-C-Sharp-Seminar4\\task27\\task27.csproj": {}
+    "D:\\Work\\GeekBrains\\C#\\Seminar4(homework)\\task27\\task27.csproj": {}
   },
   "projects": {
-    "D:\\HTML, CSS, JS\\GeekBrains\\C# lessons\\Homeworks\\Homework-C-Sharp-Seminar4\\task27\\task27.csproj": {
+    "D:\\Work\\GeekBrains\\C#\\Seminar4(homework)\\task27\\task27.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HTML, CSS, JS\\GeekBrains\\C# lessons\\Homeworks\\Homework-C-Sharp-Seminar4\\task27\\task27.csproj",
+        "projectUniqueName": "D:\\Work\\GeekBrains\\C#\\Seminar4(homework)\\task27\\task27.csproj",
         "projectName": "task27",
-        "projectPath": "D:\\HTML, CSS, JS\\GeekBrains\\C# lessons\\Homeworks\\Homework-C-Sharp-Seminar4\\task27\\task27.csproj",
-        "packagesPath": "C:\\Users\\Повелитель\\.nuget\\packages\\",
-        "outputPath": "D:\\HTML, CSS, JS\\GeekBrains\\C# lessons\\Homeworks\\Homework-C-Sharp-Seminar4\\task27\\obj\\",
+        "projectPath": "D:\\Work\\GeekBrains\\C#\\Seminar4(homework)\\task27\\task27.csproj",
+        "packagesPath": "C:\\Users\\Инженер-хомячок\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\GeekBrains\\C#\\Seminar4(homework)\\task27\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Повелитель\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Инженер-хомячок\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
