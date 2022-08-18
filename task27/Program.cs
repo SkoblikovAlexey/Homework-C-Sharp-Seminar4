@@ -6,38 +6,43 @@
 
 // 9012 -> 12
 
-double number = 152;
-
-double CalcCount(double num)
-{  // функция вычисляет количество знаков в числе
-    double count = 0;
-    do
-    {
-        num = num / 10;
-        count++;
-    }
-    while (num >= 1);
-    return count;
-}
-
-double CalcSum(double num, double func)
+while (true)
 {
-    double summ = 0;
-    for (double i = func - 1; i >= 0 + 1; i--)
+    int CalcLength(int num) // функция вычисляет количество знаков в числе
     {
-          summ = summ + Math.Round(num / Math.Pow(10, i));
-          num = num - num/Math.Pow(10, i);   
-      Console.WriteLine(summ);
-      Console.WriteLine();
-      Console.WriteLine(summ);
+        int length = 0;
+        do
+        {
+            num = num / 10;
+            length++;
+        }
+        while (num >= 1);
+        return length;
     }
-    return summ;
+
+    int CalcSum(int num, int func) // функция кладет в сумму число от остатка деления на 10 и уменьшает в 10 раз само число на каждой итерации
+    {
+        int summ = 0;
+        for (int i = 0; i < func; i++)
+        {
+            summ = summ + num % 10;
+            num = num / 10;
+        }
+        return summ;
+    }
+
+    Console.WriteLine("Введите число.");
+
+    int number = Convert.ToInt32(Console.ReadLine());
+
+    int result = CalcSum(number, CalcLength(number));
+
+    Console.WriteLine($"Сумма знаков в числе равна {result}.");
+
+    Console.WriteLine("Для завершения введите end, для продолжения - любой символ");
+    string a = Console.ReadLine();
+    if (a == "end")
+    {
+        break;
+    }
 }
-double result = CalcSum(number, CalcCount(number));
-Console.WriteLine(result);
-// do {
-//     number = number / 10;
-//     count++;
-// }
-// while (number >= 1);
-// Console.WriteLine(count);
